@@ -1,0 +1,25 @@
+{
+  "name": "mac",
+  "version": "1.0.0",
+  "description": "make angular component",
+  "main": "index.js",
+  "bin": {
+    "mac":"index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@angular/cli": "6.1.2",
+    "@angular/compiler-cli": "6.1.1",
+    "@angular/language-service": "6.1.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.17.0",
+    "ng-packagr": "^3.0.6",
+    "shelljs": "^0.8.2"
+  }
+}
